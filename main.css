@@ -1,7 +1,27 @@
 .googlelogo {
-    padding: 280px;
     text-align: center;
 }
 .logo-size {
     width: 300px
 }
+
+
+.searchform {
+    text-align: center;
+
+}
+
+.cylinder {
+
+    background: #fff;
+    display: flex;
+    border: 1px solid  #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    z-index: 3;
+    height: 44px;
+    margin: 0 auto;
+    width: auto;
+    max-width: 584px;
+}
+ 
