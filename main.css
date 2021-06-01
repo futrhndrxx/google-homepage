@@ -1,27 +1,115 @@
+/*
+
 .googlelogo {
     text-align: center;
 }
 .logo-size {
-    width: 300px
+    display: flex;
+    width: 300px;
+    margin: 0 auto;
 }
 
-
-.searchform {
-    text-align: center;
-
+.container {
+    display: flex;
 }
+
 
 .cylinder {
-
     background: #fff;
     display: flex;
     border: 1px solid  #dfe1e5;
-    box-shadow: none;
     border-radius: 24px;
-    z-index: 3;
     height: 44px;
+    width: 584px;
+    align-items: center;
     margin: 0 auto;
-    width: auto;
-    max-width: 584px;
 }
- 
+
+.magnifying-glass {
+    display: flex;
+    padding-left: 14px;
+}
+
+*/
+
+
+
+#about {
+    padding-left: 8px;
+    font-size: 10.5pt;
+}
+#store {
+    padding-right: 1100px;
+    font-size: 10.5pt;
+}
+#gmail {
+    font-size: 9pt;
+    
+
+}
+#images {
+    font-size: 9pt;
+    margin-right: 14px;
+}
+
+#apps {
+    height: 30px;
+    }
+#profile {
+    height: 34px;
+    width: auto;
+    padding-left: 15px;
+}
+
+a {
+    margin: 9px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.navigation {
+font-family: sans-serif;
+display: flex;
+align-items: normal;
+}
+
+.mainlogo {
+    padding-top: 154px;
+}
+#logo {
+    height: 92px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 30px;
+
+    
+}
+
+
+#search {
+    background: #fff;
+    position: static;
+    left: 50%;
+    border: 1px solid  #dfe1e5;
+    border-radius: 24px;
+    height: 44px;
+    width: 584px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#magnifying-glass {
+    height: 20px;
+    width: auto;
+    padding-top: 11px;
+    padding-left: 10px;
+    color: #dfe1e5;
+}
+
+#footer {
+
+}
