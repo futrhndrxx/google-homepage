@@ -32,25 +32,34 @@
 
 */
 
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
 
+li {
+ display: inline;
+ padding: 2px
+}
+
+.right {
+    float: right;
+}
 
 #about {
-    padding-left: 8px;
     font-size: 10.5pt;
 }
 #store {
-    padding-right: 1100px;
     font-size: 10.5pt;
-}
+    }
 #gmail {
     font-size: 9pt;
-    
-
-}
+    }
 #images {
     font-size: 9pt;
-    margin-right: 14px;
-}
+    }
 
 #apps {
     height: 30px;
@@ -59,6 +68,7 @@
     height: 34px;
     width: auto;
     padding-left: 15px;
+    margin-right: 1px;
 }
 
 a {
@@ -109,6 +119,25 @@ align-items: normal;
     padding-left: 10px;
     color: #dfe1e5;
 }
+
+.button-layout {
+    padding-top: 20px;
+    text-align: center;
+}
+
+#buttons {
+    height: 36px;
+    width: 127.4px;
+    background: #f8f9fa;
+    margin: 10px;
+    border: none;
+}
+
+#buttons :hover {
+    box-shadow: grey;
+}
+
+
 
 #footer {
 
